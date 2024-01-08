@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Raleway";
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-for-all-pages {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-around;
+  color: teal;
+}
+
+.items-nav {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.items-nav a {
+  text-decoration: none;
+  color: teal;
+}
