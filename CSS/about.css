@@ -1,0 +1,12 @@
+.about-us-head {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  background: url(../Images/IMG_6793.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
