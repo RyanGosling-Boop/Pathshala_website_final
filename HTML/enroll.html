@@ -3,8 +3,12 @@
   <head>
     <!--Css Links-->
     <link rel="stylesheet" href="../CSS/navbar.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/enroll.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/footer.css" />
 
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -42,7 +46,7 @@
           <a href="about-us.html">About Us</a>
         </li>
         <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
-          <a href="news">News</a>
+          <a href="news.html">News</a>
         </li>
         <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
           <a href="downloads.html">Downloads</a>
@@ -50,10 +54,134 @@
         <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
           <a href="alumni.html">Alumni</a>
         </li>
+        <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
+          <a href="contact.html">Contact</a>
+        </li>
       </ul>
       <div class="enroll" data-aos="fade-left" data-aos-duration="1500">
-        Enroll
+        <a href="enroll.html">Enroll</a>
       </div>
+    </div>
+    <div class="header-for-enroll">Enroll</div>
+    <div class="testbox">
+      <form action="/">
+        <br />
+        <p>
+          <center>
+            Thank you for your interest in joining the PNF family. To reserve
+            your seat, please fill out the information below.
+          </center>
+        </p>
+        <br />
+        <div class="colums">
+          <div class="item">
+            <label for="fname"> First Name<span>*</span></label>
+            <input id="fname" type="text" name="fname" required />
+          </div>
+          <div class="item">
+            <label for="lname"> Last Name<span>*</span></label>
+            <input id="lname" type="text" name="lname" required />
+          </div>
+          <div class="item">
+            <label for="title">देवनागरीमा नाम थर<span>*</span></label>
+            <input id="title" type="text" name="title" required />
+          </div>
+          <div class="item">
+            <label for="org">Date of Birth<span>*</span></label>
+            <input id="org" type="text" name="org" required />
+          </div>
+          <div class="item">
+            <label for="eaddress">Previous School<span>*</span></label>
+            <input id="eaddress" type="text" name="eaddress" required />
+          </div>
+          <div class="item">
+            <label for="phone"
+              >Study duration previous school<span>*</span></label
+            >
+            <input id="phone" type="tel" name="phone" required />
+          </div>
+          <div class="item">
+            <label for="fax"
+              >Previous illness/handicap (If any)<span>*</span></label
+            >
+            <input id="fax" type="text" name="fax" required />
+          </div>
+          <div class="item">
+            <label for="address1">Mother's name<span>*</span></label>
+            <input id="address1" type="text" name="address1" required />
+          </div>
+          <div class="item">
+            <label for="address2">Father's Name<span>*</span></label>
+            <input id="address2" type="text" name="address2" required />
+          </div>
+          <div class="item">
+            <label for="city">Mother's email address<span>*</span></label>
+            <input id="city" type="text" name="city" required />
+          </div>
+          <div class="item">
+            <label for="state">Father's email address<span>*</span></label>
+            <input id="state" type="text" name="state" required />
+          </div>
+          <div class="item">
+            <label for="code">Mother's Phone Number<span>*</span></label>
+            <input id="code" type="text" name="code" required />
+          </div>
+          <div class="item">
+            <label for="code">GPA of Grade VIII<span>*</span></label>
+            <input id="code" type="text" name="code" required />
+          </div>
+          <div class="item">
+            <label for="code">GPA of Grade IX<span>*</span></label>
+            <input id="code" type="text" name="code" required />
+          </div>
+          <div class="item">
+            <label for="code">GPA of Grade X<span>*</span></label>
+            <input id="code" type="text" name="code" required />
+          </div>
+          <div class="item">
+            <label for="code">Postal Code<span>*</span></label>
+            <input id="code" type="text" name="code" required />
+          </div>
+          <div class="item">
+            <label for="code">Postal Code<span>*</span></label>
+            <input id="code" type="text" name="code" required />
+          </div>
+        </div>
+        <div class="question">
+          <label>Do you need school’s transportation?</label>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="none" id="radio_1" name="info" />
+              <label for="radio_1" class="radio"><span>Yes</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_2" name="info" />
+              <label for="radio_2" class="radio"><span>No</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <p>Meal Preference</p>
+          <select>
+            <option selected value="" disabled selected></option>
+            s
+            <option value="ch">Chicken</option>
+            <option value="v">Vegetarian</option>
+            <option value="n">None</option>
+          </select>
+        </div>
+        <div class="item">
+          <label for="visit"
+            >What are your expectations (both in terms of academics and
+            extracurricular activities) from pursuing Pre-Uni Program at
+            Pathshala?*
+          </label>
+          <textarea id="visit" rows="3"></textarea>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
     </div>
 
     <!--Footer-->
@@ -63,7 +191,10 @@
           <h2>About us</h2>
           <div class="content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis hic earum, commodi aspernatur expedita iste eligendi laudantium dolorum quod maiores minima dolores officiis eos perspiciatis, voluptatum culpa, molestias ad cumque.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              hic earum, commodi aspernatur expedita iste eligendi laudantium
+              dolorum quod maiores minima dolores officiis eos perspiciatis,
+              voluptatum culpa, molestias ad cumque.
             </p>
             <div class="social">
               <a href="#"><span class="fab fa-facebook-f"></span></a>
@@ -96,7 +227,7 @@
             <form action="#">
               <div class="email">
                 <div class="text">Email *</div>
-                <input type="email" required>
+                <input type="email" required />
               </div>
               <div class="msg">
                 <div class="text">Message *</div>
@@ -112,7 +243,8 @@
       <div class="bottom">
         <center>
           <span class="credit">Created By <a href="#">Pathshala </a> | </span>
-          <span class="far fa-copyright"></span><span> 2024 All rights reserved.</span>
+          <span class="far fa-copyright"></span
+          ><span> 2024 All rights reserved.</span>
         </center>
       </div>
     </footer>

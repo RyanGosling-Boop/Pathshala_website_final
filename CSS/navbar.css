@@ -23,6 +23,20 @@
 }
 
 .items-nav a {
+  transition: 1.2s;
   text-decoration: none;
   color: teal;
+}
+
+.enroll a {
+  transition: 1.2s;
+  text-decoration: none;
+  color: teal;
+}
+.items-nav a:hover {
+  letter-spacing: 0.3rem;
+}
+
+.enroll a:hover {
+  letter-spacing: 0.3rem;
 }
