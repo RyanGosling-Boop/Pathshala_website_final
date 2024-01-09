@@ -6,6 +6,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+  }
 .content1{
   position: relative;
   margin: 130px auto;
