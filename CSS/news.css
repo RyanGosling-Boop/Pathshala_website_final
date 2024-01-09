@@ -10,8 +10,11 @@
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: rgb(238, 238, 238) ;
+    background: url(../Images/3.JPG);
     color: orange;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .leftcolumn {
