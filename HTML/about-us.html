@@ -26,7 +26,18 @@
     />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
+
   <body>
+    <div class="loader-bg" style="overflow: hidden">
+      <div class="loader" style="overflow: hidden"></div>
+    </div>
+    <!-- Preloader End -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        $(".loader-bg").fadeToggle();
+      }, 1000);
+    </script>
     <!--Navbar-->
     <div class="navbar-for-all-pages">
       <div class="logo-of-pnf" data-aos="fade-right" data-aos-duration="1500">
