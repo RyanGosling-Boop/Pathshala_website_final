@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #d9d9d9;
 }
 .content1{
   position: relative;
@@ -28,6 +27,7 @@ footer{
   bottom: 0px;
   width: 100%;
   background: #111;
+  color: #d9d9d9;
 }
 .main-content{
   display: flex;
