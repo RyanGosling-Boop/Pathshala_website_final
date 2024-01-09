@@ -1,0 +1,48 @@
+.downloadsContainer {
+  background-color: whitesmoke;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 62vh;
+  gap: 20px;
+}
+
+.downloadsContainer a {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: #2f3542;
+  position: relative;
+  background: rgba(7, 110, 110, 1);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+.downloadsContainer a:hover {
+  background: white;
+  letter-spacing: 0.25em;
+  color: teal;
+  box-shadow: 0 0 35px teal;
+}
+
+.downloads-header {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  background: url(../Images/smallerbox2_2_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

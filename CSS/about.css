@@ -10,3 +10,135 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.intro-container-1,
+.intro-container-2 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.intro-text-1,
+.intro-text-2 {
+  width: 40vw;
+}
+
+.img-intro-container {
+  background: url(../Images/4.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 40vh;
+}
+.img-intro-container-2 {
+  background: url(../Images/8.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 40vh;
+}
+
+.our-vision {
+  background-color: whitesmoke;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.our-vision-text {
+  text-align: center;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h3 {
+  color: orange;
+}
+
+.ceo-face-circle {
+  background: url(../Images/ceo.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 50%;
+  border: 30px solid whitesmoke;
+}
+
+.principal-face-1 {
+  background: url(../Images/principalBagdol.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 50%;
+  border: 30px solid whitesmoke;
+}
+.principal-face-2 {
+  background: url(../Images/baneshworPrincipal.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 50%;
+  border: 30px solid whitesmoke;
+}
+
+.container-for-ceo-face {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-for-principal-faces {
+  gap: 20vw;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.under-ceo {
+  margin-top: 5vh;
+  width: 90vw;
+}
+
+.container-for-ceo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.under-ceo h3 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.principal-msg-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal-msg {
+  width: 90vw;
+}
+
+.principal-msg h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 5vh;
+}
