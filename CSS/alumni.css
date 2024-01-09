@@ -1,94 +1,92 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-* {
-  font-family: "Raleway";
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.box-alumni {
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(7, 110, 110, 0.58);
+  display: block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
+}
+.box-alumni h2 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: teal;
+  padding-bottom: 0;
+}
+.box-alumni h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 40px;
+  border-radius: 12px;
+  background: orange;
+  padding-bottom: 0;
+}
+.box-alumni form {
+  margin-top: 30px;
 }
 
-.box-alumni{
-    position: relative;
-    max-width: 430px;
-    width: 100%;
-    background: #fff;
-    padding: 34px;
-    border-radius: 6px;
-    box-shadow: 0 5px 10px rgba(7, 110, 110, 1);
-    display: block;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0;
-  }
-  .box-alumni h2{
-    position: relative;
-    font-size: 22px;
-    font-weight: 600;
-    color: #333;
-    padding-bottom: 0;
-  }
-  .box-alumni h2::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 40px;
-    border-radius: 12px;
-    background: orange;
-    padding-bottom: 0;
-  }
-  .box-alumni form{
-    margin-top: 30px;
-  }
+form .input-box input {
+  height: 53px;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  font-weight: 400;
+  color: teal;
+  border: 1.5px solid #c7bebe;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
 
-  form .input-box input{
-    height: 53px;
-    width: 100%;
-    outline: none;
-    font-size: 17px;
-    font-weight: 400;
-    color: #333;
-    border: 1.5px solid #C7BEBE;
-    border-bottom-width: 2.5px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-  }
- 
-  form h3{
-    color: #707070;
-    font-size: 14px;
-    font-weight: 500;
-    margin-left: 10px;
-  }
-  form label {
-    display: block;
-    font-size: 15px;
-    margin-bottom: 7px;
-    font-size: 15px;
-    font-weight: bold;
-  }
-  .input-box.button input{
-    color: #fff;
-    letter-spacing: 1px;
-    border: none;
-    background: orange;
-    cursor: pointer;
-    padding-bottom: 0;
-  }
-  .input-box.button input:hover{
-    background: #e9b951;
-  }
-  form .text h3{
-   color: #333;
-   width: 100%;
-   text-align: center;
-  }
-  form .text h3 a{
-    color: orange;
-    text-decoration: none;
-  }
-  form .text h3 a:hover{
-    text-decoration: underline;
-  }
+form h3 {
+  color: teal;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+form label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.input-box.button input {
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: orange;
+  cursor: pointer;
+  padding-bottom: 0;
+}
+.input-box.button input:hover {
+  background: #e9b951;
+}
+form .text h3 {
+  color: teal;
+  width: 100%;
+  text-align: center;
+}
+form .text h3 a {
+  color: orange;
+  text-decoration: none;
+}
+form .text h3 a:hover {
+  text-decoration: underline;
+}
+
+h2,
+h1,
+h3 {
+  font-weight: 200;
+  color: teal;
+}
