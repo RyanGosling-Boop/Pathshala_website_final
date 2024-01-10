@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!--Css Links-->
-    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/global.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -122,10 +122,10 @@
         </div>
         <h3 data-aos="fade-up" data-aos-duration="2500">Education</h3>
         <p data-aos="fade-up" data-aos-duration="3000">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-          laboriosam accusamus minus repudiandae obcaecati molestias ipsa!
-          Cupiditate neque ad cum animi corporis similique hic corrupti maiores.
-          Ea possimus exercitationem sunt?
+          We value education in our institution by providing a relevant and
+          engaging curriculum, creating a safe and inclusive learning
+          environment, developing a culture of excellence and innovation, and
+          engaging with the parents and the community.
         </p>
       </div>
       <div class="value2" style="overflow: hidden">
@@ -138,10 +138,10 @@
         </div>
         <h3 data-aos="fade-up" data-aos-duration="2500">Opportunity</h3>
         <p data-aos="fade-up" data-aos-duration="3000">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-          laboriosam accusamus minus repudiandae obcaecati molestias ipsa!
-          Cupiditate neque ad cum animi corporis similique hic corrupti maiores.
-          Ea possimus exercitationem sunt?
+          We value giving equal opportunities to everyone in our institution by
+          implementing a fair admission policy, providing a differentiated
+          instruction, offering a variety of activities, and promoting a culture
+          of respect and solidarity.
         </p>
       </div>
       <div class="value3" style="overflow: hidden">
@@ -154,10 +154,10 @@
         </div>
         <h3 data-aos="fade-up" data-aos-duration="2500">Student Centered</h3>
         <p data-aos="fade-up" data-aos-duration="3000">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-          laboriosam accusamus minus repudiandae obcaecati molestias ipsa!
-          Cupiditate neque ad cum animi corporis similique hic corrupti maiores.
-          Ea possimus exercitationem sunt?
+          We value student centered teaching by encouraging the students to take
+          an active role in their learning, providing them with a variety of
+          learning experiences, fostering a collaborative and cooperative
+          learning environment, and supporting their holistic development.
         </p>
       </div>
     </div>
@@ -176,10 +176,13 @@
             Pathshala Pre-Uni Program
           </h3>
           <p data-aos="fade-up" data-aos-duration="2500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            magni aliquid iusto tempora eius. Est, animi, odio obcaecati
-            reprehenderit nobis delectus eveniet cum vitae aspernatur expedita
-            recusandae, aperiam saepe vel.
+            The pathshala nepal foundation’s pre uni program is a visionary and
+            mission-driven program that prepares the students for a successful
+            and meaningful life in the global world. The program offers a
+            curriculum that covers the NEB, IB, and CAIE subjects, a choice of
+            optional subjects from four groups, a variety of activities, and a
+            learning environment that is caring, supportive, stimulating, and
+            challenging.
           </p>
           <div
             class="read-more-button"
@@ -273,6 +276,7 @@
         ></div>
       </div>
     </div>
+
     <div class="container-for-more-info-2">
       <div class="text-container-for-more-info-2">
         <h3 data-aos="fade-right" data-aos-duration="1500">Our Family</h3>
@@ -374,6 +378,37 @@
     </script>
     <script>
       AOS.init();
+    </script>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "198250763375136");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v18.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
     </script>
   </body>
 </html>
