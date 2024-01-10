@@ -28,9 +28,20 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
+    <!-- Preloader Start -->
+    <div class="loader-bg" style="overflow: hidden">
+      <div class="loader" style="overflow: hidden"></div>
+    </div>
+    <!-- Preloader End -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        $(".loader-bg").fadeToggle();
+      }, 1000);
+    </script>
     <!--Navbar-->
     <div class="navbar-for-all-pages">
-      <div class="logo-of-pnf" data-aos="fade-right" data-aos-duration="1500">
+      <div class="logo-of-pnf" data-aos="fade-right" data-aos-duration="2500">
         <img
           src="../Images/logo-for-nav-bar.png"
           alt=""
@@ -39,32 +50,32 @@
         />
       </div>
       <ul>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
+        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
           <a href="index.html">Home</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
+        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
           <a href="about-us.html">About Us</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
+        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
           <a href="news.html">News</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
+        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
           <a href="downloads.html">Downloads</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
+        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
           <a href="alumni.html">Alumni</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="1500">
+        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
           <a href="contact.html">Contact</a>
         </li>
       </ul>
-      <div class="enroll" data-aos="fade-left" data-aos-duration="1500">
+      <div class="enroll" data-aos="fade-left" data-aos-duration="2500">
         <a href="enroll.html">Enroll</a>
       </div>
     </div>
 
     <!--Body-->
-    <div class="header-for-blog" data-aos="fade-down" data-aos-duration="1000">
+    <div class="header-for-blog" data-aos="fade-down" data-aos-duration="2000">
       Pre-Uni Blog
     </div>
 
