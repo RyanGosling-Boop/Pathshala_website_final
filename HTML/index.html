@@ -47,29 +47,60 @@
           width="50px"
         />
       </div>
-      <ul>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
+      <ul class="sidebar">
+        <li onclick=hideSidebar() class="items-nav">
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+        </li>
+        <li class="items-nav">
           <a href="index.html">Home</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
+        <li class="items-nav">
           <a href="about-us.html">About Us</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
+        <li class="items-nav">
           <a href="news.html">News</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
+        <li class="items-nav">
           <a href="downloads.html">Downloads</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
+        <li class="items-nav">
           <a href="alumni.html">Alumni</a>
         </li>
-        <li class="items-nav" data-aos="fade-down" data-aos-duration="2500">
+        <li class="items-nav">
+          <a href="contact.html">Contact</a>
+        </li>
+        <li class="items-nav">
+          <a href="enroll.html">Enroll</a>
+        </li>
+      </ul>
+      <ul >
+        <li class="items-nav hideOnMobile" data-aos="fade-down" data-aos-duration="2500">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="items-nav hideOnMobile" data-aos="fade-down" data-aos-duration="2500">
+          <a href="about-us.html">About Us</a>
+        </li>
+        <li class="items-nav hideOnMobile" data-aos="fade-down" data-aos-duration="2500">
+          <a href="news.html">News</a>
+        </li>
+        <li class="items-nav hideOnMobile"  data-aos="fade-down" data-aos-duration="2500">
+          <a href="downloads.html">Downloads</a>
+        </li>
+        <li class="items-nav hideOnMobile" data-aos="fade-down" data-aos-duration="2500">
+          <a href="alumni.html">Alumni</a>
+        </li>
+        <li class="items-nav hideOnMobile"data-aos="fade-down" data-aos-duration="2500">
           <a href="contact.html">Contact</a>
         </li>
       </ul>
-      <div class="enroll" data-aos="fade-left" data-aos-duration="2500">
+      <div class="enroll hideOnMobile" data-aos="fade-left" data-aos-duration="2500">
         <a href="enroll.html">Enroll</a>
       </div>
+      <ul>
+        <li onclick=showSidebar() class="menu">
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </li>
+      </ul>
     </div>
 
     <!--Home Page-->
@@ -330,6 +361,17 @@
         </center>
       </div>
     </footer>
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
     <script>
       AOS.init();
     </script>
