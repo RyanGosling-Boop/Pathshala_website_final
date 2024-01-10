@@ -85,13 +85,6 @@ form .text h3 a:hover {
   text-decoration: underline;
 }
 
-h2,
-h1,
-h3 {
-  font-weight: 200;
-  color: teal;
-}
-
 .header-for-alumni {
   text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.444);
   height: 30vh;
