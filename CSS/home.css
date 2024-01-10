@@ -359,3 +359,37 @@ i {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media (width<1429px) {
+  .container-for-values {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 100vh;
+  }
+  .value1,
+  .value2,
+  .value3 {
+    height: 50vh;
+    width: 40vw;
+  }
+}
+@media (width<700px) {
+  .container-for-values {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 100vh;
+  }
+  .value1,
+  .value2,
+  .value3 {
+    height: 20px;
+  }
+}
+
+@media (width<1166) {
+  .annoying {
+    font-size: 10px;
+  }
+}

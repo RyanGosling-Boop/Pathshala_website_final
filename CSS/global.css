@@ -41,7 +41,12 @@
   letter-spacing: 0.3rem;
 }
 
-.sidebar{
+.enroll {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.sidebar {
   position: fixed;
   top: 0;
   right: 0;
@@ -56,27 +61,27 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.sidebar li{
+.sidebar li {
   width: 100%;
   margin-top: 20px;
 }
-.sidebar a{
+.sidebar a {
   width: 100%;
   color: black;
 }
-.menu{
-  display:none;
+.menu {
+  display: none;
 }
-@media(max-width:800px){
-  .hideOnMobile{
+@media (max-width: 800px) {
+  .hideOnMobile {
     display: none;
   }
-  .menu{
-    display:block;
+  .menu {
+    display: block;
   }
 }
-@media(max-width:480px){
-  .sidebar{
+@media (max-width: 480px) {
+  .sidebar {
     width: 100%;
   }
 }
