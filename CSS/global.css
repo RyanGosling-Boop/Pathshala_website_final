@@ -40,6 +40,7 @@
 .enroll a:hover {
   letter-spacing: 0.3rem;
 }
+/*Transition*/
 .loader-bg {
   position: fixed;
   z-index: 999999;
