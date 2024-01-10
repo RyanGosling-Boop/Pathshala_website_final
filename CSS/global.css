@@ -48,7 +48,6 @@
   display: flex;
   align-items: center;
 }
-
 .sidebar{
   position: fixed;
   top: 0;
@@ -92,6 +91,7 @@
     width: 100%;
   }
 }
+
 /*Transition*/
 .loader-bg {
   position: fixed;
