@@ -43,12 +43,23 @@
   letter-spacing: 0.3rem;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+  background: teal;
+  border-radius: 50px;
+}
 .enroll {
   justify-content: center;
   display: flex;
   align-items: center;
 }
-.sidebar{
+.sidebar {
   position: fixed;
   top: 0;
   right: 0;
@@ -62,32 +73,32 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.sidebar li{
+.sidebar li {
   width: 100%;
   margin-top: 20px;
 }
-.sidebar .center-sidebar li{
+.sidebar .center-sidebar li {
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.sidebar a{
+.sidebar a {
   width: 100%;
   color: black;
 }
-.menu{
-  display:none;
+.menu {
+  display: none;
 }
-@media(max-width:800px){
-  .hideOnMobile{
+@media (max-width: 800px) {
+  .hideOnMobile {
     display: none;
   }
-  .menu{
-    display:block;
+  .menu {
+    display: block;
   }
 }
-@media(max-width:480px){
-  .sidebar{
+@media (max-width: 480px) {
+  .sidebar {
     width: 100%;
   }
 }
