@@ -484,8 +484,12 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
+  .calendar {
+    overflow: hidden;
+  }
   .container {
     min-height: 100vh;
+    width: 60vw;
     flex-direction: column;
     border-radius: 0;
   }
