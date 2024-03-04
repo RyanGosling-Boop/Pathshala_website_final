@@ -16,7 +16,7 @@
   width: 40vw;
   background-color: #2f3542;
   position: relative;
-  background: rgba(7, 110, 110, 1);
+  background: #19968d;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -30,8 +30,8 @@
 .downloadsContainer a:hover {
   background: white;
   letter-spacing: 0.25em;
-  color: teal;
-  box-shadow: 0 0 35px teal;
+  color: #19968d;
+  box-shadow: 0 0 35px #19968d;
 }
 
 .downloads-header {

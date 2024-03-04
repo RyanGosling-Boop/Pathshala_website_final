@@ -10,7 +10,7 @@ form {
   width: 100%;
   padding: 20px;
   border-radius: 6px;
-  background: #fff;
+  background: #549994;
 }
 .content1 {
   position: relative;
@@ -21,19 +21,19 @@ form {
 .content1 .text {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #202020;
+  color: white;
 }
 .content1 .p {
   font-size: 2.1875rem;
   font-weight: 600;
-  color: #202020;
+  color: white;
 }
 footer {
   position: relative;
   bottom: 0px;
   width: 100%;
-  background: rgb(238, 238, 238);
-  color: black;
+  background: #19968d;
+  color: white;
 }
 .main-content {
   display: flex;
@@ -67,7 +67,7 @@ footer {
 .left .content .social a span {
   height: 40px;
   width: 40px;
-  background: rgb(223, 221, 221);
+  background: #afdddd;
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -75,11 +75,11 @@ footer {
   transition: 0.3s;
 }
 .left .content .social a span:hover {
-  background: orange;
+  background: #f28537;
 }
 .center .content .fas {
   font-size: 1.4375rem;
-  background: #dfdddd;
+  background: #afdddd;
   height: 45px;
   width: 45px;
   line-height: 45px;
@@ -89,7 +89,7 @@ footer {
   cursor: pointer;
 }
 .center .content .fas:hover {
-  background: orange;
+  background: #f28537;
 }
 .center .content .text {
   font-size: 1.0625rem;
@@ -102,7 +102,7 @@ footer {
 .right form .text {
   font-size: 1.0625rem;
   margin-bottom: 2px;
-  color: black;
+  color: white;
 }
 .right form .msg {
   margin-top: 10px;
@@ -111,9 +111,9 @@ footer {
 .right form textarea {
   width: 100%;
   font-size: 1.0625rem;
-  background: rgb(206, 206, 206);
+  background: #ffffff;
   padding-left: 10px;
-  border: 1px solid rgb(223, 221, 221);
+  border: 1px solid #858383;
 }
 .right form input:focus,
 .right form textarea:focus {
@@ -130,25 +130,25 @@ footer {
   width: 100%;
   border: none;
   outline: none;
-  background: orange;
+  background: #f28537;
   font-size: 1.0625rem;
   font-weight: 500;
   cursor: pointer;
   transition: 0.3s;
 }
 .right form .btn button:hover {
-  background: rgb(100, 100, 100);
+  background: #95d1cd;
 }
 .bottom center {
   padding: 5px;
   font-size: 0.9375rem;
-  background: rgb(223, 221, 221);
+  background: #95d1cd;
 }
 .bottom center span {
-  color: #656565;
+  color: #202020;
 }
 .bottom center a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .bottom center a:hover {

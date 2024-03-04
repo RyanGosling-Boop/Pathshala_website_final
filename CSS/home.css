@@ -9,7 +9,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #f28537;
   text-shadow: 1px 1px 70px black;
 }
 * {
@@ -49,7 +49,7 @@
 }
 
 h3 {
-  color: orange;
+  color: #f28537;
 }
 
 .pnf-values {
@@ -83,7 +83,7 @@ h3 {
   font-size: 3.5rem;
 }
 i {
-  color: orange;
+  color: #f28537;
 }
 .icon-for-value-1 {
   text-align: center;
@@ -124,9 +124,9 @@ i {
 .read-more-button {
   margin-left: 9vw;
   transition: 1.2s;
-  color: orange;
+  color: #f28537;
   padding: 10px;
-  background-color: orange;
+  background-color: #f28537;
   display: flex;
   align-items: center;
   border-radius: 20px;
@@ -175,7 +175,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: orange;
+  color: #f28537;
   font-size: 1.4rem;
 }
 
@@ -303,7 +303,7 @@ i {
   align-items: center;
   justify-content: center;
   font-size: 5rem;
-  color: orange;
+  color: #f28537;
   height: 20vh;
 }
 

@@ -7,15 +7,17 @@
 }
 
 .navbar-for-all-pages {
+  transition: 1.2s ease;
   display: flex;
-  height: 8vh;
+  height: 6.5vh;
   align-items: center;
   justify-content: space-around;
-  color: teal;
+  color: #19968d;
   margin-left: 200px;
 }
 
 .items-nav {
+  transition: 1.2s ease;
   list-style: none;
   text-decoration: none;
   display: inline-block;
@@ -26,21 +28,32 @@
 .items-nav a {
   transition: 1.2s;
   text-decoration: none;
-  color: teal;
+  color: #19968d;
+  font-size: 22px;
 }
 
 .enroll a {
   transition: 1.2s;
   text-decoration: none;
-  color: teal;
-  margin-left: 20px;
+  color: white;
+  font-size: 15px;
+  
 }
 .items-nav a:hover {
   letter-spacing: 0.3rem;
 }
 
 .enroll a:hover {
+  transition: 1.2s ease;
   letter-spacing: 0.3rem;
+ 
+}
+
+.enroll:hover {
+  transition: 1.2s ease;
+  letter-spacing: 0.3rem;
+  background-color: #f28537;
+  box-shadow: 1px 1px 10px  #f28537;
 }
 
 ::-webkit-scrollbar {
@@ -51,15 +64,23 @@
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb {
-  background: teal;
+  background: #19968d;
   border-radius: 50px;
 }
 .enroll {
+  transition: 1.2s ease;
   justify-content: center;
   display: flex;
   align-items: center;
+  padding: 10px;
+  color: white;
+  background-color: #19968d;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px teal;
+  
 }
 .sidebar {
+  transition: 1.2s ease;
   position: fixed;
   top: 0;
   right: 0;
@@ -123,7 +144,7 @@
 .loader:after,
 .loader:before {
   content: "";
-  border: 1em solid teal;
+  border: 1em solid #19968d;
   border-radius: 50%;
   width: inherit;
   height: inherit;

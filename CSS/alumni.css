@@ -6,7 +6,7 @@
   background: #fff;
   padding: 34px;
   border-radius: 6px;
-  box-shadow: 0 5px 10px rgba(7, 110, 110, 0.58);
+  box-shadow: 0 5px 10px #19968d;
   display: block;
   display: block;
   margin-left: auto;
@@ -17,7 +17,7 @@
   position: relative;
   font-size: 22px;
   font-weight: 600;
-  color: teal;
+  color: #19968d;
   padding-bottom: 0;
 }
 .box-alumni h2::before {
@@ -28,7 +28,7 @@
   height: 3px;
   width: 40px;
   border-radius: 12px;
-  background: orange;
+  background: #f28537;
   padding-bottom: 0;
 }
 .box-alumni form {
@@ -41,7 +41,7 @@ form .input-box input {
   outline: none;
   font-size: 17px;
   font-weight: 400;
-  color: teal;
+  color: #19968d;
   border: 1.5px solid #c7bebe;
   border-bottom-width: 2.5px;
   border-radius: 6px;
@@ -49,7 +49,7 @@ form .input-box input {
 }
 
 form h3 {
-  color: teal;
+  color: #19968d;
   font-size: 14px;
   font-weight: 500;
   margin-left: 10px;
@@ -65,7 +65,7 @@ form label {
   color: #fff;
   letter-spacing: 1px;
   border: none;
-  background: orange;
+  background: #f28537;
   cursor: pointer;
   padding-bottom: 0;
 }
@@ -73,12 +73,12 @@ form label {
   background: #e9b951;
 }
 form .text h3 {
-  color: teal;
+  color: #19968d;
   width: 100%;
   text-align: center;
 }
 form .text h3 a {
-  color: orange;
+  color: #f28537;
   text-decoration: none;
 }
 form .text h3 a:hover {
