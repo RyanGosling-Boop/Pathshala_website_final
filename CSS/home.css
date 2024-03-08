@@ -235,13 +235,16 @@ i {
   background-color: white;
 }
 .buffer-line {
+
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
-  gap: 3vw;
+  gap: 10vw;
+  height: 60vh;
 }
 .buffer-circle-1 {
-  border: 30px solid whitesmoke;
+  box-shadow: 1px 1px 30px 10px #f285377b;
   height: 40vh;
   width: 40vh;
   border-radius: 50%;
@@ -251,7 +254,7 @@ i {
   background-repeat: no-repeat;
 }
 .buffer-circle-2 {
-  border: 30px solid whitesmoke;
+  box-shadow: 1px 1px 30px 10px #f285377b;
   height: 40vh;
   width: 40vh;
   border-radius: 50%;
@@ -261,7 +264,7 @@ i {
   background-repeat: no-repeat;
 }
 .buffer-circle-3 {
-  border: 30px solid whitesmoke;
+  box-shadow: 1px 1px 30px 10px #f285377b;
   height: 40vh;
   width: 40vh;
   border-radius: 50%;
