@@ -11,25 +11,27 @@
   display: flex;
   height: 6.5vh;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #19968d;
   margin-left: 200px;
+
 }
 
 .items-nav {
+  margin-left: 0.4vw;
+  margin-right: 0.4vw;
   transition: 1.2s ease;
   list-style: none;
   text-decoration: none;
   display: inline-block;
-  margin-left: 1vw;
-  margin-right: 1vw;
+
 }
 
 .items-nav a {
-  transition: 1.2s;
+  transition: 0.9s;
   text-decoration: none;
   color: #19968d;
-  font-size: 22px;
+  font-size: 18px
 }
 
 .enroll a {
@@ -38,8 +40,10 @@
   color: white;
   font-size: 15px;
 }
+
 .items-nav a:hover {
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
+  color: #f28537;
 }
 
 .enroll a:hover {
@@ -57,14 +61,17 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
+
 ::-webkit-scrollbar-track {
   background: white;
   border-radius: 50px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #19968d;
   border-radius: 50px;
 }
+
 .enroll {
   transition: 1.2s ease;
   justify-content: center;
@@ -76,6 +83,7 @@
   border-radius: 5px;
   box-shadow: 1px 1px 10px teal;
 }
+
 .sidebar {
   transition: 1.2s ease;
   position: fixed;
@@ -91,30 +99,37 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .sidebar li {
   width: 100%;
   margin-top: 20px;
 }
+
 .sidebar .center-sidebar li {
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 .sidebar a {
   width: 100%;
   color: black;
 }
+
 .menu {
   display: none;
 }
+
 @media (max-width: 800px) {
   .hideOnMobile {
     display: none;
   }
+
   .menu {
     display: block;
   }
 }
+
 @media (max-width: 480px) {
   .sidebar {
     width: 100%;
@@ -129,6 +144,7 @@
   width: 100%;
   height: 100%;
 }
+
 .loader {
   border: 0 solid transparent;
   border-radius: 50%;
@@ -138,6 +154,7 @@
   top: calc(50vh - 75px);
   left: calc(50vw - 75px);
 }
+
 .loader:after,
 .loader:before {
   content: "";
@@ -151,17 +168,21 @@
   animation: loader 2s linear infinite;
   opacity: 0;
 }
+
 .loader:before {
   animation-delay: 0.5s;
 }
+
 @keyframes loader {
   0% {
     transform: scale(0);
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     transform: scale(1);
     opacity: 0;
