@@ -9,10 +9,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  text-shadow: 3px 3px 10px #f28537;
+  color: #f28537;
+  text-shadow: 1px 1px 70px black;
 }
-
 * {
   overflow-x: hidden;
 }
@@ -34,7 +33,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .img-under-values-2 {
   height: 40vh;
   width: 30vw;
@@ -79,25 +77,20 @@ h3 {
   width: 20vw;
   box-shadow: 1px 1px 15px 2px rgba(65, 68, 68, 0.321);
 }
-
 .value1 i,
 .value2 i,
 .value3 i {
   font-size: 3.5rem;
 }
-
 i {
   color: #f28537;
 }
-
 .icon-for-value-1 {
   text-align: center;
 }
-
 .icon-for-value-2 {
   text-align: center;
 }
-
 .icon-for-value-3 {
   text-align: center;
 }
@@ -108,13 +101,11 @@ i {
   margin-top: 3vh;
   text-align: center;
 }
-
 .value1 p,
 .value2 p,
 .value3 p {
   text-align: center;
 }
-
 .value1:hover,
 .value2:hover,
 .value3:hover {
@@ -124,15 +115,12 @@ i {
 .value1:hover {
   transform: rotate(-1deg);
 }
-
 .value2:hover {
   transform: translateY(-10px);
 }
-
 .value3:hover {
   transform: rotate(1deg);
 }
-
 .read-more-button {
   margin-left: 9vw;
   transition: 1.2s;
@@ -226,14 +214,12 @@ i {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .img-container-reason-3 {
   background: url(../Images/6.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .img-container-reason-2 {
   background: url(../Images/3.JPG);
   background-position: center;
@@ -248,14 +234,12 @@ i {
   height: 60vh;
   background-color: white;
 }
-
 .buffer-line {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3vw;
 }
-
 .buffer-circle-1 {
   border: 30px solid whitesmoke;
   height: 40vh;
@@ -266,7 +250,6 @@ i {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .buffer-circle-2 {
   border: 30px solid whitesmoke;
   height: 40vh;
@@ -277,7 +260,6 @@ i {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .buffer-circle-3 {
   border: 30px solid whitesmoke;
   height: 40vh;
@@ -343,7 +325,6 @@ i {
   width: 23vw;
   background-color: red;
 }
-
 .image-gallery-1:hover,
 .image-gallery-2:hover,
 .image-gallery-3:hover,
@@ -354,28 +335,24 @@ i {
 .random-container-for-asdufjfv-text {
   width: 30vw;
 }
-
 .image-gallery-1 {
   background: url(../Images/10.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .image-gallery-2 {
   background: url(../Images/7.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .image-gallery-3 {
   background: url(../Images/9.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .image-gallery-4 {
   background: url(../Images/5.JPG);
   background-position: center;
@@ -390,7 +367,6 @@ i {
     padding: 40px;
     height: 100vh;
   }
-
   .value1,
   .value2,
   .value3 {
@@ -398,7 +374,6 @@ i {
     width: 40vw;
   }
 }
-
 @media (max-width: 1000px) {
   .container-for-values {
     display: flex;
@@ -406,26 +381,21 @@ i {
     padding: 40px;
     height: 100vh;
   }
-
   .value1,
   .value2,
   .value3 {
     height: 60px;
   }
-
   .main-under-value-text h3 {
     font-size: 20px;
   }
-
   .main-under-value-text p {
     font-size: 12px;
   }
-
   .container-for-more-info p {
     font-size: 18px;
   }
 }
-
 @media (width<1166) {
   .annoying {
     font-size: 10px;
