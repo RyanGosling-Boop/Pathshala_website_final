@@ -148,3 +148,21 @@ h3 {
   font-size: 1.4rem;
   margin-top: 5vh;
 }
+
+@media (max-width:700px) {
+
+  .principal-face-1,
+  .principal-face-2 {
+    height: 20vh;
+    width: 20vh;
+  }
+
+  .our-vision p {
+    font-size: 12px;
+  }
+
+  .intro-container-1 p,
+  .intro-container-2 p {
+    font-size: 13px;
+  }
+}
