@@ -374,7 +374,7 @@ i {
     width: 40vw;
   }
 }
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .container-for-values {
     display: flex;
     flex-direction: column;
@@ -386,15 +386,15 @@ i {
   .value3 {
     height: 60px;
   }
-  .main-under-value-text h3{
+  .main-under-value-text h3 {
     font-size: 20px;
   }
-  .main-under-value-text p{
+  .main-under-value-text p {
     font-size: 12px;
   }
-  .container-for-more-info p{
+  .container-for-more-info p {
     font-size: 18px;
-  }  
+  }
 }
 @media (width<1166) {
   .annoying {

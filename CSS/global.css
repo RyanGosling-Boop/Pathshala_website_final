@@ -37,7 +37,6 @@
   text-decoration: none;
   color: white;
   font-size: 15px;
-  
 }
 .items-nav a:hover {
   letter-spacing: 0.3rem;
@@ -46,14 +45,13 @@
 .enroll a:hover {
   transition: 1.2s ease;
   letter-spacing: 0.3rem;
- 
 }
 
 .enroll:hover {
   transition: 1.2s ease;
   letter-spacing: 0.3rem;
   background-color: #f28537;
-  box-shadow: 1px 1px 10px  #f28537;
+  box-shadow: 1px 1px 10px #f28537;
 }
 
 ::-webkit-scrollbar {
@@ -77,7 +75,6 @@
   background-color: #19968d;
   border-radius: 5px;
   box-shadow: 1px 1px 10px teal;
-  
 }
 .sidebar {
   transition: 1.2s ease;

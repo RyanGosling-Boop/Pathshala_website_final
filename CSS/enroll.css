@@ -226,3 +226,6 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.content .text {
+  color: #fff;
+}
