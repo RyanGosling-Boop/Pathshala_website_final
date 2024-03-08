@@ -33,6 +33,7 @@
   width: 30vw;
   height: 40vh;
 }
+
 .img-intro-container-2 {
   background: url(../Images/8.JPG);
   background-position: center;
@@ -65,6 +66,7 @@ h3 {
 }
 
 .ceo-face-circle {
+  box-shadow: 1px 1px 30px 10px #f285377b;
   background: url(../Images/ceo.jpeg);
   background-position: center;
   background-repeat: no-repeat;
@@ -72,10 +74,11 @@ h3 {
   height: 40vh;
   width: 40vh;
   border-radius: 50%;
-  border: 30px solid whitesmoke;
+
 }
 
 .principal-face-1 {
+  box-shadow: 1px 1px 30px 10px #f285377b;
   background: url(../Images/principalBagdol.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -83,9 +86,11 @@ h3 {
   height: 40vh;
   width: 40vh;
   border-radius: 50%;
-  border: 30px solid whitesmoke;
+
 }
+
 .principal-face-2 {
+  box-shadow: 1px 1px 30px 10px #f285377b;
   background: url(../Images/baneshworPrincipal.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +98,7 @@ h3 {
   height: 40vh;
   width: 40vh;
   border-radius: 50%;
-  border: 30px solid whitesmoke;
+
 }
 
 .container-for-ceo-face {
@@ -102,6 +107,7 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+
 .container-for-principal-faces {
   gap: 20vw;
   margin-top: 20px;
