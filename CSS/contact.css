@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 250px;
 }
 
 .container .content .side {
@@ -101,6 +102,9 @@
 @media (max-width: 720px) {
   .container .content .sidee {
     margin-right: 100px;
+  }
+  .container .content {
+    margin-right: 0px;
   }
 }
 /*Map*/
