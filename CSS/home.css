@@ -84,10 +84,15 @@ h3 {
 .value1,
 .value2,
 .value3 {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   transition: 1.2s;
   padding: 10px;
-  height: 45vh;
-  width: 20vw;
+  height: 300px;
+  width: 390px;
   box-shadow: 1px 1px 15px 2px rgba(65, 68, 68, 0.321);
 }
 
@@ -129,11 +134,11 @@ i {
 .value1:hover,
 .value2:hover,
 .value3:hover {
-  box-shadow: 1px 1px 15px 2px rgba(255, 166, 0, 0.55);
+  box-shadow: 1px 1px 15px 2px #f285377b
 }
 
 .value1:hover {
-  transform: rotate(-1deg);
+  transform: translateY(-10px);
 }
 
 .value2:hover {
@@ -141,7 +146,7 @@ i {
 }
 
 .value3:hover {
-  transform: rotate(1deg);
+  transform: translateY(-10px);
 }
 
 .read-more-button {
@@ -405,12 +410,6 @@ i {
     height: 100vh;
   }
 
-  .value1,
-  .value2,
-  .value3 {
-    height: 50vh;
-    width: 40vw;
-  }
 }
 
 @media (max-width: 1000px) {
@@ -419,12 +418,6 @@ i {
     flex-direction: column;
     padding: 40px;
     height: 100vh;
-  }
-
-  .value1,
-  .value2,
-  .value3 {
-    height: 60px;
   }
 
   .main-under-value-text h3 {
@@ -459,8 +452,40 @@ i {
   }
 }
 
-@media (width<1166) {
+@media (width<1166px) {
   .annoying {
     font-size: 10px;
+  }
+}
+
+@media(width<1434px) {
+  .bg-header-1 {
+    font-size: 5rem;
+  }
+}
+
+@media(width<1124px) {
+  .bg-header-1 {
+    font-size: 4rem;
+  }
+}
+
+@media(width<1114px) {
+  .container-for-bg-image-and-text {
+    height: 60vh;
+  }
+}
+
+@media(width<1008px) {
+
+  .value3,
+  .value1,
+  .value2 {
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .value3 {
+    height: 700px;
   }
 }
