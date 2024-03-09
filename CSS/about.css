@@ -166,3 +166,29 @@ h3 {
     font-size: 13px;
   }
 }
+
+@media(width<1198px) {
+
+  .img-intro-container,
+  .img-intro-container-2 {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 65vw;
+    height: 30vh;
+  }
+
+  .intro-container-1 {
+    flex-direction: column;
+  }
+
+  .intro-text-1,
+  .intro-text-2 {
+    width: 65vw;
+  }
+
+  .intro-container-2 {
+    flex-direction: column-reverse;
+  }
+}
