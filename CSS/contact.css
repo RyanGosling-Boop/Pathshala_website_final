@@ -98,7 +98,11 @@
     margin-left: 0;
   }
 }
-
+@media (max-width: 720px) {
+  .container .content .sidee {
+    margin-right: 100px;
+  }
+}
 /*Map*/
 .container h1 {
   color: #2f3542;
