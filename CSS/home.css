@@ -74,6 +74,7 @@ h3 {
 }
 
 .container-for-values {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,7 +92,7 @@ h3 {
   flex-direction: column;
   transition: 1.2s;
   padding: 10px;
-  height: 300px;
+  height: 400px;
   width: 390px;
   box-shadow: 1px 1px 15px 2px rgba(65, 68, 68, 0.321);
 }
@@ -405,14 +406,13 @@ i {
 @media (width<1429px) {
   .container-for-values {
     display: flex;
-    flex-direction: column;
     padding: 40px;
     height: 100vh;
   }
 
 }
 
-@media (max-width: 1000px) {
+@media (width< 1000px) {
   .container-for-values {
     display: flex;
     flex-direction: column;
@@ -452,9 +452,9 @@ i {
   }
 }
 
-@media (width<1166px) {
-  .annoying {
-    font-size: 10px;
+@media(max-width:700px) {
+  .main-under-value-text h3 {
+    font-size: 15px;
   }
 }
 
@@ -481,11 +481,42 @@ i {
   .value3,
   .value1,
   .value2 {
-    height: 600px;
     overflow: hidden;
   }
 
-  .value3 {
+  .value3,
+  .value1,
+  .value2 {
     height: 700px;
+  }
+}
+
+@media(width<1070px) {
+  .container-for-values {
+    height: 140vh;
+    flex-direction: column;
+  }
+}
+
+@media(width<1066px) {
+  .why-choose-pathshala {
+    flex-direction: column;
+    height: 180vh;
+  }
+
+  .pnf-reasons-1,
+  .pnf-reasons-2,
+  .pnf-reasons-3 {
+    height: 50vh;
+    width: 70vw;
+    box-shadow: 1px 1px 15px 2px rgba(152, 152, 151, 0.55);
+  }
+
+
+}
+
+@media(width<798px) {
+  .text-container-for-more-info-2 {
+    height: 38vh;
   }
 }
