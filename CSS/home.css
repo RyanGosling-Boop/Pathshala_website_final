@@ -10,18 +10,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #f28537;
+  /* color: #19968d; */
 
 }
 
 .bg-header-1 {
   font-size: 7rem;
-  text-shadow: 1px 2px 20px #f28537;
+  /* text-shadow: 1px 2px 20px #f28537; */
 }
 
 .bg-header-2 {
   font-size: 4rem;
-  text-shadow: 1px 2px 20px #f28537;
+  /* text-shadow: 1px 2px 20px #f28537; */
 }
 
 * {
