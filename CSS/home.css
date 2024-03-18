@@ -10,8 +10,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #f28537;
-  text-shadow: 10px 10px 20px #f2853776;
+  color: white;
+  text-shadow: #f28537 2px 2px 20px ;
+ 
   /* color: #19968d; */
 
 }
